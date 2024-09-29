@@ -1,0 +1,37 @@
+{
+  "id": "f7c4c500-9ea3-41ec-a20d-be69a04cf177",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t understand. You can say \u0027New Order\u0027 or \u0027Track Order\u0027. In new order, please mention items and their quantity from our available menu like \"One pizza and 2 chole bhature\"",
+            "I\u0027m sorry, I didn\u0027t catch that. Please mention \u0027New Order\u0027 or \u0027Track Order\u0027 to continue. For New Order, Please specify item and quantity for that.",
+            "Sorry , Not able to understand. Say \u0027New Order\u0027 or \u0027Track Order\u0027 to guide me. For New Order, Please specify item and quantity for that."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "8659c40f-0e76-44d0-9cd6-ab701393ec23",
+  "name": "order.complete",
+  "auto": true,
+  "contexts": [
+    "ongoing-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for ordering. Your order is placed. Your order id is #",
+            "Your order is received. Thanks! Your order id is #",
+            "Thanks for ordering. It\u0027s in progress. Your order id is #",
+            "Thanks for choosing us. Order confirmed. Your order id is #",
+            "Order placed. Thanks! Your order id is #",
+            "Order received. Thank you! Your order id is #",
+            "Thanks for choosing us. Order placed. Your order id is #",
+            "Got it! Thanks for your order. Your order id is #",
+            "Your order is confirmed. Thanks! Your order id is #",
+            "Order confirmed. Thanks! Your order id is #",
+            "Received. Thank you for ordering. Your order id is #",
+            "Got your order. Thanks! Your order id is #"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

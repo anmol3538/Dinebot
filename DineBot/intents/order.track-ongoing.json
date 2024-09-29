@@ -1,0 +1,60 @@
+{
+  "id": "e575e6e6-52bd-40f4-917e-1c842f371f38",
+  "name": "order.track-ongoing",
+  "auto": true,
+  "contexts": [
+    "Tracking-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Tracking-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "992c77d1-a89e-4a9b-8068-0350e81b8e62",
+          "name": "order_id",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide the order ID clearly."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

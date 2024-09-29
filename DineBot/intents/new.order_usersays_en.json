@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b21f24a5-c1e7-4b11-a2d7-81d5f286bbde",
+    "data": [
+      {
+        "text": "Place new order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfdd670d-5aa2-484e-9eaf-b485f982d011",
+    "data": [
+      {
+        "text": "new order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

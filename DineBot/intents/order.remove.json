@@ -1,0 +1,66 @@
+{
+  "id": "a38c5647-31c7-4366-bb1e-5f2eb610aa69",
+  "name": "order.remove",
+  "auto": true,
+  "contexts": [
+    "ongoing-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "42b2dca1-ed9a-4bec-a988-f6f5a2b02fd0",
+          "name": "food-item",
+          "required": false,
+          "dataType": "@food-item",
+          "value": "$food-item",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "$food-item Removed",
+            "$food-item Excluded",
+            "$food-item Removed from the list",
+            "$food-item Deducted from the list",
+            "$food-item Erased from the list",
+            "List updated without $food-item",
+            "$food-item entry deleted",
+            "$food-item subtracted from the list",
+            "Off the list: $food-item.",
+            "$food-item gone"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
